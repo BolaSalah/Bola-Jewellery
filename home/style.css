@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #e5e4ea !important;
+}
+/* navbar */
+.navbar {
+    z-index: 100;
+    background-color: #a69bab;
+}
+.navbar-brand{
+    width: 22vh;
+}
+.navbar-toggler{
+    margin: 2%;
+}
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+.navbar:hover {
+    opacity: 1 !important;
+    background-color: #4c4545 !important;
+}
+.dropdown-menu .dropdown-item:hover{
+    background-color: #8383db;
+}
+
+/* container */
+.best-seller-containerWord{
+    margin-top: 3%;
+    margin-left: 30px;
+}
+.best-seller-word{
+    font-size: 50px;
+    border-radius: 20px;
+    border-bottom: 2px black solid;
+    border-top: 2px black solid;
+}
+.best-seller-card{
+    width: 250px;
+    margin-top: 20px;
+    border-radius: 10px;
+    height: 320px;
+    position: relative;
+    background-color: white;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, .1);
+}
+.cardd-BS{
+    position: absolute;
+    top: 5px;
+    left: 5px;
+}
+.best-seller-card img {
+    width: 95%;
+    height: 70%;
+    margin-top: 10%;
+    border-radius: 10px;
+}
+.best-seller-card p {
+    margin-top: 6%;
+}
+.hidden-link{
+    visibility: hidden ;
+    position: absolute;
+    top: 60%;
+    width: 94%;
+    height: 20%;
+    font-size: 22px;
+    transition: .5s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    outline: 2px solid black;
+}
+.best-seller-card:hover .hidden-link{
+    visibility: visible ;
+}
+.best-seller-card .hidden-link:hover {
+    background-color: black;
+    border-radius: 20px;
+    width: 90%;
+}
+.best-seller-card .hidden-link a{
+    text-decoration: none;
+}
+
+/* footer */
+.footer{
+    background-color: #a69bab;
+}
+.footer ul li a{
+    color: black;
+}
