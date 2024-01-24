@@ -1,0 +1,163 @@
+[
+    {
+        "id": 1,
+        "image": "./image/1.jpg",
+        "description":"Amethyst heart-shaped open ring",
+        "price": "30,000.00&nbspEGP",
+        "category": "AMOURFATI"
+    },
+    {
+        "id": 2,
+        "image": "./image/2.jpg",
+        "description":"Customized Diamond letter pendant",
+        "price": "56,200.00 &nbspEGP",
+        "category": "AMOURFATI"
+    },
+    {
+        "id": 3,
+        "image": "./image/3.jpg",
+        "description":"Double layered heart-shaped blue",
+        "price": "52,350.00&nbspEGP",
+        "category": "AMOURFATI"
+    },
+    {
+        "id": 4,
+        "image": "./image/4.jpg",
+        "description":"Green & Blue Topaz",
+        "price": "44,600.00&nbspEGP",
+        "category": "AMOURFATI"
+    },
+    {
+        "id": 5,
+        "image": "./image/5.jpg",
+        "description":"Green & Blue Topaz with Diamond",
+        "price": "120,125.00&nbspEGP",
+        "category": "AMOURFATI"
+    },
+    {
+        "id": 6,
+        "image": "./image/6.jpg",
+        "description":"Heart shaped blue Sapphire",
+        "price": "36,850.00&nbspEGP",
+        "category": "AMOURFATI"
+    },
+    {
+        "id": 7,
+        "image": "./image/7.jpg",
+        "description":"Heart shaped Blue Topaz",
+        "price": "36,850.00&nbspEGP",
+        "category": "VALENTINES"
+    },
+    {
+        "id": 8,
+        "image": "./image/8.jpg",
+        "description":"Heart shaped emerald",
+        "price": "37,800.00 &nbspEGP",
+        "category": "AMOURFATI"
+    },
+    {
+        "id": 9,
+        "image": "./image/9.jpg",
+        "description":"Heart shaped Garnets",
+        "price": "37,800.00&nbspEGP",
+        "category": "AMOURFATI"
+    },
+    {
+        "id": 10,
+        "image": "./image/10.jpg",
+        "description":"Heart shaped Green Topaz",
+        "price": "44,600.00&nbspEGP",
+        "category": "AMOURFATI"
+    },
+    {
+        "id": 11,
+        "image": "./image/11.jpg",
+        "description":"Heart shaped Mix Gemstones",
+        "price": "34,000.00 &nbspEGP",
+        "category": "AMOURFATI"
+    },
+    {
+        "id": 12,
+        "image": "./image/12.jpg",
+        "description":"Heart shaped Peridot",
+        "price": "54,250.00&nbspEGP",
+        "category": "AMOURFATI"
+    },
+    {
+        "id": 13,
+        "image": "./image/13.jpg",
+        "description":"Heart shaped Pink sapphire",
+        "price": "23,250.00&nbspEGP",
+        "category": "AMOURFATI"
+    },
+    {
+        "id": 14,
+        "image": "./image/14.jpg",
+        "description":"heart-shaped blue Topaz",
+        "price": "31,000.00 &nbspEGP",
+        "category": "AMOURFATI"
+    },
+    {
+        "id": 15,
+        "image": "./image/15.jpg",
+        "description":"Heart-shaped Peridot open ring",
+        "price": "28,000.00&nbspEGP",
+        "category": "AMOURFATI"
+    },
+    {
+        "id": 16,
+        "image": "./image/16.jpg",
+        "description":"Heart-shaped Pink",
+        "price": "33,000.00&nbspEGP",
+        "category": "AMOURFATI"
+    },
+    {
+        "id": 17,
+        "image": "./image/16.jpg",
+        "description":"Mixed Sapphire Bangle",
+        "price": "149,200.00&nbspEGP",
+        "category": "AMOURFATI"
+    },
+    {
+        "id": 18,
+        "image": "./image/16.jpg",
+        "description":"Personalized letter Diamond",
+        "price": "56,200.00&nbspEGP",
+        "category": "AMOURFATI"
+    },
+    {
+        "id": 19,
+        "image": "./image/16.jpg",
+        "description":"Personalized letter Diamond",
+        "price": "56,200.00&nbspEGP",
+        "category": "AMOURFATI"
+    },
+    {
+        "id": 20,
+        "image": "./image/16.jpg",
+        "description":"Personalized letter Diamond",
+        "price": "56,200.00&nbspEGP",
+        "category": "AMOURFATI"
+    },
+    {
+        "id": 21,
+        "image": "./image/16.jpg",
+        "description":"Pink sapphire&diamond",
+        "price": "58,125.00&nbspEGP",
+        "category": "AMOURFATI"
+    },
+    {
+        "id": 22,
+        "image": "./image/16.jpg",
+        "description":"Pink sapphire&diamonds drops",
+        "price": "64,000.00 &nbspEGP",
+        "category": "AMOURFATI"
+    },
+    {
+        "id": 23,
+        "image": "./image/16.jpg",
+        "description":"Pink sapphire&diamonds heart shaped",
+        "price": "50,375.00&nbspEGP",
+        "category": "AMOURFATI"
+    }
+]
