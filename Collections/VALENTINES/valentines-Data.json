@@ -1,0 +1,114 @@
+[
+    {
+        "id": 1,
+        "image": "./image/1.jpg",
+        "description":"Amethyst & Peridot Heart",
+        "price": "49,000.00&nbspEGP",
+        "category": "VALENTINES"
+    },
+    {
+        "id": 2,
+        "image": "./image/2.jpg",
+        "description":"AMETHYST STAR HOOPS",
+        "price": "65,100.00&nbspEGP",
+        "category": "VALENTINES"
+    },
+        {
+        "id": 3,
+        "image": "./image/9.jpg",
+        "description":"EMERALD WIRE RING",
+        "price": "6,000.00&nbspEGP",
+        "category": "VALENTINES"
+    },
+    {
+        "id": 4,
+        "image": "./image/4.jpg",
+        "description":"BLUE TOPAZ WIRE RING",
+        "price": "5,300.00&nbspEGP",
+        "category": "VALENTINES"
+    },
+    {
+        "id": 5,
+        "image": "./image/5.jpg",
+        "description":"Double Layered Heart-Shaped",
+        "price": "38,750.00&nbspEGP",
+        "category": "VALENTINES"
+    },
+    {
+        "id": 6,
+        "image": "./image/6.jpg",
+        "description":"Emerald Heart-shaped",
+        "price": "35,000.00&nbspEGP",
+        "category": "VALENTINES"
+    },
+    {
+        "id": 7,
+        "image": "./image/7.jpg",
+        "description":"EMERALD LOCKET CHAIN",
+        "price": "102,300.00&nbspEGP",
+        "category": "VALENTINES"
+    },
+    {
+        "id": 8,
+        "image": "./image/8.jpg",
+        "description":"EMERALD WIRE CHOKER",
+        "price": "24,000.00&nbspEGP",
+        "category": "VALENTINES"
+    },
+    {
+        "id": 9,
+        "image": "./image/3.jpg",
+        "description":"Blue Sapphire Heart-shaped",
+        "price": "41,850.00&nbspEGP",
+        "category": "VALENTINES"
+    },
+    {
+        "id": 10,
+        "image": "./image/10.jpg",
+        "description":"Hadith Pendant",
+        "price": "80,600.00&nbspEGP",
+        "category": "VALENTINES"
+    },
+    {
+        "id": 11,
+        "image": "./image/11.jpg",
+        "description":"Intarsia Locket Chain",
+        "price": "108,500.00&nbspEGP",
+        "category": "VALENTINES"
+    },
+    {
+        "id": 12,
+        "image": "./image/12.jpg",
+        "description":"MISMATCHED EMERALD STUDS",
+        "price": "28,675.00&nbspEGP",
+        "category": "VALENTINES"
+    },
+    {
+        "id": 13,
+        "image": "./image/13.jpg",
+        "description":"MIXED SAPPHIRES KEY NECKLACE",
+        "price": "28,000.00&nbspEGP",
+        "category": "VALENTINES"
+    },
+    {
+        "id": 14,
+        "image": "./image/14.jpg",
+        "description":"OPAL INITIAL STUDS",
+        "price": "21,000.00&nbspEGP",
+        "category": "VALENTINES"
+    },
+    {
+        "id": 15,
+        "image": "./image/15.jpg",
+        "description":"PINK TOPAZ WIRE CHOKER",
+        "price": "21,700.00&nbspEGP",
+        "category": "VALENTINES"
+    },
+    {
+        "id": 16,
+        "image": "./image/16.jpg",
+        "description":"PINK TOPAZ WIRE RING",
+        "price": "6,000.00&nbspEGP",
+        "category": "VALENTINES"
+    }
+]
