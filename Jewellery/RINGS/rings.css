@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #e5e4ea !important;
+}
+
+/* navbar */
+.navbar {
+    z-index: 100;
+    background-color: #a69bab;
+}
+.navbar-brand{
+    width: 22vh;
+}
+.navbar-toggler{
+    margin: 2%;
+}
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+.navbar:hover {
+    opacity: 1 !important;
+    background-color: #4c4545 !important;
+}
+.dropdown-menu .dropdown-item:hover{
+    background-color: #8383db;
+}
+
+/* container */
+.container{
+    margin-top: 6%;
+}
+.name-collection{
+    height: 12vh;
+    margin-top:80px;
+}
+.container-cards {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.card {
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 250px;
+    height: 350px !important;
+    margin-top: 3%;
+    border-radius: 10px;
+    background-color: #d0d9d9;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.card img {
+    width: 95%;
+    height: 68%;
+    border-radius: 10px;
+}
+.hidden-link {
+    visibility: hidden ;
+    position: absolute;
+    top: 47.5%;
+    width: 94%;
+    height: 20%;
+    font-size: 22px;
+    transition: .5s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, .1);
+    outline: 2px solid black;
+}
+.card:hover .hidden-link {
+    visibility: visible ;
+}
+.card .hidden-link:hover {
+    background-color: black;
+    width: 90%;
+    border-radius: 20px;
+}
+.card .hidden-link a {
+    text-decoration: none;
+    cursor: pointer;
+}
+.one{
+    position: absolute;
+    top: 60%;
+    width: 85%;
+    font-size: 23px;
+    height: 16%;
+    color: red;
+    animation: move 3s ;
+}
+@keyframes move {
+    0%{
+        top: 60%;
+    }
+    100%{
+        top:10%;
+    }
+}
+/* pagination */
+.pagination{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2%;
+    margin-bottom: 2%
+}
+
+/* footer */
+.footer{
+    background-color: #a69bab;
+}
+.footer ul li a{
+    color: black;
+}
