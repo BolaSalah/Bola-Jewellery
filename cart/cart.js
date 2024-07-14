@@ -1,26 +1,18 @@
-// change login button in navBar
-let logIn = document.querySelector(".logInNavbar");
-window.onload = function () {
-    if(localStorage.getItem("login") === "true"){
-        logIn.innerHTML = "Log out";
-        logIn.addEventListener("click",function(e){
-            e.preventDefault();
-            if(logIn.innerHTML==="Log out"){
-                localStorage.removeItem("login");
-                logIn.innerHTML="Log in";
-            }
-            else if (logIn.innerHTML==="Log in"){
-                location.href ="../../logIn/login.html"
-            }
-        })
-    }
-};
-
 let content = document.querySelector('.content');
 let partOneCart = document.querySelector('.partOneCart');
 let partTwoCart = document.querySelector('.partTwoCart');
+let removeAll = document.querySelector('.removeAll');
+let footer = document.querySelector('.footer');
 
-if (localStorage.getItem("login") === "true") {
+if (localStorage.length == 0) {
+    footer.classList.add("footer-no-product")
+}
+
+removeAll.addEventListener("click", () => {
+    localStorage.clear();
+    location.reload();
+})
+
     let getTotalPrice = 0;
     for (let i = 0; i < 27; i++) {
         if (localStorage.getItem(`cart-valentine-${i}`)) {
@@ -67,12 +59,4 @@ if (localStorage.getItem("login") === "true") {
             continue;
         }
     }
-    partOneCart.innerHTML = `Hi Mr ${localStorage.getItem('name')} - you buy ${localStorage.length-4} product - total ${getTotalPrice},000.00 `;
-}
-else {
-    partOneCart.innerHTML = "you should to log in"
-    let footer = document.querySelector(".footer");
-    footer.style.position = "absolute";
-    footer.style.bottom = '0px';
-    footer.style.width = '100%';
-}
+    partOneCart.innerHTML = `${(localStorage.length)>1?localStorage.length+" products":localStorage.length+" product"} - total ${getTotalPrice},000.00 `;

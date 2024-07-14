@@ -21,10 +21,6 @@ body {
 .dropdown:hover .dropdown-menu {
     display: block;
 }
-.navbar:hover {
-    opacity: 1 !important;
-    background-color: #4c4545 !important;
-}
 .dropdown-menu .dropdown-item:hover{
     background-color: #8383db;
 }
@@ -64,10 +60,28 @@ body {
     margin-bottom: 17px;
 }
 
+.removeAll{
+    position: fixed;
+    bottom: 12%;
+    right: 3%;
+    background-color: #a69bab !important;
+    padding: 15px !important;
+}
+.removeAll:hover {
+    transition-duration: .5s;
+    background-color: #504b52 !important;
+    color: white !important;
+}
+
 /* footer */
 .footer{
     background-color: #a69bab;
 }
 .footer ul li a{
     color: black;
+}
+.footer-no-product{
+     width: 100%;
+    position: absolute;
+    bottom: 0;
 }

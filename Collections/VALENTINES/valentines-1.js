@@ -1,21 +1,3 @@
-// change login button in navBar
-let logIn = document.querySelector(".logInNavbar");
-window.onload = function () {
-    if(localStorage.getItem("login") === "true"){
-        logIn.innerHTML = "Log out";
-        logIn.addEventListener("click",function(e){
-            e.preventDefault();
-            if(logIn.innerHTML==="Log out"){
-                localStorage.removeItem("login");
-                logIn.innerHTML="Log in";
-            }
-            else if (logIn.innerHTML==="Log in"){
-                location.href ="../../logIn/login.html"
-            }
-        })
-    }
-}
-
 // get data from json
 let containerCards = document.querySelector('.container-cards');
 let req = new XMLHttpRequest();
@@ -39,7 +21,6 @@ req.onreadystatechange = function () {
         let card =document.querySelectorAll(".card")
         for (let i = 0; i < addToCart.length; i++) {
             addToCart[i].addEventListener("click", function () {
-                if (localStorage.getItem("login") === "true") {
                     addToCart[i].innerHTML="done, added"
                     setTimeout(function () {
                         addToCart[i].innerHTML = "ADD TO CART";
@@ -50,16 +31,6 @@ req.onreadystatechange = function () {
                         return (cartImage + "-" + cartPrice);
                     };
                     localStorage.setItem(`cart-valentine-${i}`, [cartFun()]);
-                }
-                else {
-                    let one = document.createElement("div");
-                    one.classList.add("one")
-                    one.innerHTML = 'you should to log in';
-                    card[i].appendChild(one);
-                    setTimeout(function () {
-                        one.remove();
-                    }, 3000);
-                }
             })
         }
     }

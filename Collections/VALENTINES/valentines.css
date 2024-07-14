@@ -21,10 +21,6 @@ body{
 .dropdown:hover .dropdown-menu {
     display: block;
 }
-.navbar:hover {
-    opacity: 1 !important;
-    background-color: #4c4545 !important;
-}
 .dropdown-menu .dropdown-item:hover{
     background-color: #8383db;
 }
