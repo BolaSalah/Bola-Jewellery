@@ -23,6 +23,3 @@
 --
 ![Screenshot (682)](https://github.com/BolaSalah/Bola-Jewellery/assets/103209637/18738a85-6791-4cff-9169-2a6c2397e525)
 ## pagination
---
-
-## Cart-Page
